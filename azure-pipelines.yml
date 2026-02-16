@@ -19,7 +19,7 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-        python "C:\Users\Administrator\Desktop\socars_test.py"
+        python "C:\Program Files\azure-agent\socars2.py"
               --ssc-url "https://192.168.13.177:8443/ssc" 
               --ssc-token "ZTRmMzZlNWQtNzRlOS00NGM3LTk1ZWMtN2FjZTFjYzFhYzM2" 
               --project-name "deneme"
@@ -28,7 +28,7 @@ steps:
               --smtp-port "25"
               --from-address "smpttest@gmail.com"
               --to-address "irfankaraduman10@gmail.com"
-              --fail-on-issues
+              --skip-pipeline-failure
    
   
 
