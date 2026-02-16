@@ -19,16 +19,7 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-        python "C:\Program Files\azure-agent\socars2.py"
-              --ssc-url "https://192.168.13.177:8443/ssc" 
-              --ssc-token "ZTRmMzZlNWQtNzRlOS00NGM3LTk1ZWMtN2FjZTFjYzFhYzM2" 
-              --project-name "deneme"
-              --version-name "maven"
-              --smtp-server "192.168.13.181"
-              --smtp-port "25"
-              --from-address "smpttest@gmail.com"
-              --to-address "irfankaraduman10@gmail.com"
-              --skip-pipeline-failure
+        python "C:\Program Files\azure-agent\socars2.py" --ssc-url "https://192.168.13.177:8443/ssc" --ssc-token "ZTRmMzZlNWQtNzRlOS00NGM3LTk1ZWMtN2FjZTFjYzFhYzM2" --project-name "deneme" --version-name "maven" --smtp-server "192.168.13.181" --smtp-port "25" --from-address "smpttest@gmail.com" --to-address "irfankaraduman10@gmail.com" --skip-pipeline-failure
    
   
 
