@@ -19,7 +19,7 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      python "C:\Program Files\azure-agent\socars.py”
+      python "C:\Program Files\azure-agent\socars_test.py”
               --ssc-url "https://192.168.13.177:8443/ssc" 
               --ssc-token "ZTRmMzZlNWQtNzRlOS00NGM3LTk1ZWMtN2FjZTFjYzFhYzM2" 
               --project-name "deneme"
